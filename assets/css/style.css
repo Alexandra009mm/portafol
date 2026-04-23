@@ -30,6 +30,14 @@ header .nav_principal {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 768px) {
+  header .nav_principal {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin: 24px 16px;
+    text-align: center;
+  }
+}
 header .nav_principal .logo {
   font-weight: 900;
   font-size: 24px;
@@ -64,6 +72,10 @@ header .nav_principal ul a:hover {
   width: 250px;
   border-radius: 30px;
   border: 5px solid #6a5acd;
+}
+.hero .hero_content a.boton-hero {
+  padding: 10PX 20px;
+  text-decoration: none;
 }
 
 .galeria_diagonal {

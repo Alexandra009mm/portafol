@@ -28,6 +28,8 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+            
+ 
         .logo { 
             font-weight: 900;
              font-size: 24px;
@@ -49,6 +51,7 @@ header {
             }
         }
     }
+    
 }
 
 // HERO CON ANIMACIÓN//
@@ -65,7 +68,15 @@ header {
             border: 5px solid $color-primario; 
         }
     }
+    .hero_content{
+        a.boton-hero{
+            padding: 10PX 20px;
+            text-decoration: none;
+        }
+    }
 }
+
+
 
 // GALERÍAS DIAGONALES//
 .galeria_diagonal {
@@ -152,5 +163,3 @@ footer {
         }
     }
 }
-
-
